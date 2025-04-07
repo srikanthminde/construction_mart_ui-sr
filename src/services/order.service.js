@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 // Define a service using a base URL and expected endpoints
 export const orderApi = createApi({
   reducerPath: 'orderApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'https://construction-mart-json-server.onrender.com/orders' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://construction-mart-json-server-1.onrender.com/orders' }),
   endpoints: (builder) => ({
     PlaceOrder: builder.mutation({
       query: (order) => {

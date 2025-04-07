@@ -9,7 +9,7 @@ function Cart() {
   const navigate = useNavigate();
   const { cartItems } = useSelector((state) => state.cart);
   const { isLoggedIn } = useSelector((state) => state.auth);
-
+  
   useEffect(() => {
     const storedCartItems = JSON.parse(localStorage.getItem("cartItems"));
     if (storedCartItems) {
