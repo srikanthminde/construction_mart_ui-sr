@@ -10,7 +10,7 @@ export const orderApi = createApi({
     PlaceOrder: builder.mutation({
       query: (order) => {
         return {
-            url: `/`,
+            url: `/`, 
             method: 'POST',
             body: order,
             headers:{
