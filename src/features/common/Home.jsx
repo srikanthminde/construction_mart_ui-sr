@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { logout } from "../user/loginSlice";
 import { clearCart } from "./cartSlice";
-import './Home.css';
+import './style.css';
 
 function Home() {
   const { isLoggedIn } = useSelector((state) => state.auth);
