@@ -116,7 +116,7 @@ function Cart() {
                     <td className="fw-bold">{item.name}</td>
                     <td className="text-end">₹{item.price * item.count}</td>
                   </tr>
-                ))}
+                ))} 
               </tbody>
             </table>
             <div className="border-top pt-3">
